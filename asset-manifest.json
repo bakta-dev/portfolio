@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3f8ce593.css",
+    "main.css": "/portfolio/static/css/main.77e939ce.css",
     "main.js": "/portfolio/static/js/main.afb87470.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/rigindcities.png": "/portfolio/static/media/rigindcities.4fde6bc6a5732c56a8a5.png",
@@ -98,12 +98,12 @@
     "static/media/vuetifyjs.svg": "/portfolio/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/wave.svg": "/portfolio/static/media/wave.3e7dc823b152284e309899001baaa700.svg",
     "static/media/bulma.svg": "/portfolio/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
-    "main.3f8ce593.css.map": "/portfolio/static/css/main.3f8ce593.css.map",
+    "main.77e939ce.css.map": "/portfolio/static/css/main.77e939ce.css.map",
     "main.afb87470.js.map": "/portfolio/static/js/main.afb87470.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f8ce593.css",
+    "static/css/main.77e939ce.css",
     "static/js/main.afb87470.js"
   ]
 }
