@@ -131,8 +131,9 @@
         }
         
         .div_boutons{
-        align-items: end;
+        flex-direction: column;
         padding-bottom: 10px;
+
         .bouton_home{
             width: 100px;
         }
