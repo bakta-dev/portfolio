@@ -1,0 +1,80 @@
+.About {
+    background-color: $background-page;
+    padding-bottom: 100px;
+    margin-bottom: 0;
+    overflow-y: hidden;
+    
+        
+
+}
+.div_about {
+            display: flex;
+            flex-direction: column;
+        }
+.desc_about {
+    display: flex;
+    padding: 50px;
+    padding-bottom: 110px;
+    margin-bottom: 0;
+    justify-content: space-around;
+        }
+ .quisuisje {
+    width: 40%;
+ }
+ .titre_about {
+            color: $text-color;
+        }
+        .presentation_about {
+            color: $text-color;
+            text-align: justify;
+        }
+.competences {
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+    
+
+}
+
+.diplomes {
+    display: flex;
+    flex-direction: column;   
+    color: #8A6E2F;
+    gap: 15px;
+    
+}
+.diplome-icon {
+    padding-right: 5px;
+}
+.diplome {
+    background: white;
+    color: $text-color;
+    box-sizing: content-box;
+    text-align: center;
+    border: 1px solid $text-color;
+    box-shadow:  0px 0px 5px 4px $text-color;
+    border-radius: 15px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    
+}
+
+.skills {
+    color: $text-color;
+    padding: 0px;
+}
+
+@media (max-width: 740px) {
+.desc_about {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.quisuisje {
+    width: 80%;
+}
+}
