@@ -45,12 +45,12 @@
     }
 
     .titre_home{
-        color: #CB997E;
+        color: $text-color;
         padding-bottom: 30px;
 
     }
     .presentation_home{
-        color: #CB997E;
+        color: $text-color;
         max-width: 800px;
         width: auto;
         font-weight: 600;
