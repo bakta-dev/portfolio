@@ -80,6 +80,7 @@
         text-decoration: none;
         background-color: #f9d29d;
         background: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+        cursor: pointer;
         
         a {
             text-decoration: none;
@@ -131,7 +132,7 @@
         }
         
         .div_boutons{
-        flex-direction: column;
+        // flex-direction: column;
         padding-bottom: 10px;
 
         .bouton_home{
@@ -156,6 +157,7 @@
         }
         .div_boutons{
             width: 60%;
+            flex-direction: column;
         }
         
     }

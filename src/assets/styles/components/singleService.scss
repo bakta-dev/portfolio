@@ -115,6 +115,9 @@
         height: 150px;
         padding: 1.2rem 1.2rem;
     }
+    .single-service:hover {
+        transform: none; /* Annule la transformation au survol */
+    }
     .service-icon > svg {
         font-size: 2.2rem;
     }

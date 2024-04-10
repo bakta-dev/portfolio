@@ -60,12 +60,14 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow:  0px 0px 5px 4px $text-color;
-  position: relative;
   max-height: 90%;
   color: $text-color;
+  position: relative;
+ 
   h2 {
     color:#8A6E2F;
-  }
+   
+  } 
   p {
     border : 1px solid #8A6E2F;
     border-radius: 5px;
@@ -75,7 +77,9 @@
     color: $text-color;
     padding: 2px;
   }
+
 }
+
 
 .close {
   position: absolute;

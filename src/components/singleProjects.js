@@ -26,8 +26,9 @@ function Projects() {
         {projectsData.map((project) => (
           <div key={project.id} className="project-card" onClick={() => openModal(project)}>
             <img src={project.image} alt={project.alt} />
-            <h2>{project.title}</h2>
+            <h2>{project.title} </h2>
           </div>
+          
         ))}
       </div>
       {selectedProject && (
