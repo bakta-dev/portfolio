@@ -11,7 +11,7 @@ import Header from './components/header';
 function App() {
   return (
         
-        <BrowserRouter>
+        <BrowserRouter basename="/portfolio">
           <Header/>
           <main>
             <Router />
