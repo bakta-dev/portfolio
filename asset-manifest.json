@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5be7b29b.css",
-    "main.js": "/portfolio/static/js/main.4cd692f9.js",
+    "main.css": "/portfolio/static/css/main.989cdc50.css",
+    "main.js": "/portfolio/static/js/main.f2248a78.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/rigindcities.png": "/portfolio/static/media/rigindcities.4fde6bc6a5732c56a8a5.png",
+    "static/media/cv.png": "/portfolio/static/media/cv.b7de9b3fe20b1d96f38d.png",
     "static/media/kasa.png": "/portfolio/static/media/kasa.c5707160418f9cdd56e8.png",
     "static/media/nina.png": "/portfolio/static/media/nina.bc0c6d2a80c041e013b2.png",
     "static/media/events.png": "/portfolio/static/media/events.503d79d3934dcb456b5f.png",
-    "static/media/cv.png": "/portfolio/static/media/cv.9965016a84383b5990e9.png",
     "static/media/Raleway-VariableFont_wght.ttf": "/portfolio/static/media/Raleway-VariableFont_wght.e14d84ccec6be3ff19e3.ttf",
     "static/media/sophiebluel.png": "/portfolio/static/media/sophiebluel.ce8109121f3ee2e25d7a.png",
     "static/media/qwenta.png": "/portfolio/static/media/qwenta.4d1565cf7df7d3f9cac4.png",
@@ -98,12 +98,12 @@
     "static/media/vuetifyjs.svg": "/portfolio/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/wave.svg": "/portfolio/static/media/wave.3e7dc823b152284e309899001baaa700.svg",
     "static/media/bulma.svg": "/portfolio/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
-    "main.5be7b29b.css.map": "/portfolio/static/css/main.5be7b29b.css.map",
-    "main.4cd692f9.js.map": "/portfolio/static/js/main.4cd692f9.js.map",
+    "main.989cdc50.css.map": "/portfolio/static/css/main.989cdc50.css.map",
+    "main.f2248a78.js.map": "/portfolio/static/js/main.f2248a78.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5be7b29b.css",
-    "static/js/main.4cd692f9.js"
+    "static/css/main.989cdc50.css",
+    "static/js/main.f2248a78.js"
   ]
 }
