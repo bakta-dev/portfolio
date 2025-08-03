@@ -1,164 +1,154 @@
 .home {
+  display: flex;
+  //background-color: #FFE8D6;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 0px;
+  align-items: flex-start;
+  padding-top: 100px;
+  height: 100vh;
+
+  .left_home {
     display: flex;
-    background-color: #FFE8D6;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 15px;
+    justify-content: space-between;
+  }
+
+  .div_logo_home {
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 240px;
+    border: 1px solid #8a6e2f;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 4px $text-color;
+  }
+  .Logo_home {
+    display: flex;
+    width: 400px;
+  }
+
+  .desc_home {
+    padding: 20px;
+    padding-top: 30px;
     box-sizing: border-box;
-    gap:0px;
-    align-items: flex-start;
-    padding-top: 100px;
-    height: 100vh;
-   
-    
-    .left_home {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 50px;
-        padding: 15px;
-        justify-content: space-between;
-    }
-    
-    .div_logo_home{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 250px;
-        height: 240px;
-        border: 1px solid #8A6E2F;
-        border-radius: 50%;
-        box-shadow:  0px 0px 5px 4px $text-color;
-    }
-    .Logo_home {
-        display: flex;
-        width: 400px;
-    }
-    
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .desc_home {
-        padding: 20px;
-        padding-top: 30px;
-        box-sizing: border-box;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
+  .titre_home {
+    color: $text-color;
+    padding-bottom: 30px;
+  }
+  .presentation_home {
+    color: $text-color;
+    max-width: 800px;
+    width: auto;
+    font-weight: 600;
+    text-align: justify;
+    padding-bottom: 30px;
+  }
+  .moi {
+    font-weight: 600;
+    text-decoration: overline;
+  }
 
-    }
+  .div_boutons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+  }
+  .bouton_home {
+    border: 1px solid #cb997e;
+    height: 30px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 4px $text-color;
+    color: #8a6e2f;
+    padding: 15px 10px 8px 10px;
+    text-decoration: none;
+    background-color: #f9d29d;
+    background: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
+    cursor: pointer;
 
-    .titre_home{
-        color: $text-color;
-        padding-bottom: 30px;
-
+    a {
+      text-decoration: none;
+      color: #8a6e2f;
     }
-    .presentation_home{
-        color: $text-color;
-        max-width: 800px;
-        width: auto;
-        font-weight: 600;
-        text-align: justify;
-        padding-bottom: 30px;
-
+    :visited {
+      text-decoration: none;
     }
-    .moi {
-        font-weight: 600;
-        text-decoration: overline;
-    }
-
-    .div_boutons {
-        display: flex; 
-        gap: 10px;
-        justify-content: end;
-    }
-    .bouton_home{
-        border: 1px solid #CB997E;
-        height: 30px;
-        text-align: center;
-        font-weight: 600;
-        border-radius: 10px;
-        box-shadow:  0px 0px 5px 4px $text-color;
-        color: #8A6E2F;
-        padding: 15px 10px 8px 10px;
-        text-decoration: none;
-        background-color: #f9d29d;
-        background: linear-gradient(315deg, #f9d29d 0%, #ffd8cb 74%);
-        cursor: pointer;
-        
-        a {
-            text-decoration: none;
-            color: #8A6E2F;
-        }
-        :visited {
-            text-decoration: none;
-        }
-        
-    }
-    .reseaux{
-        display: flex;
-        gap: 10px;
-
-    }
-    .icon_reseaux {
-        font-size: 20px;
-        color: #8A6E2F;
-    }
-
+  }
+  .reseaux {
+    display: flex;
+    gap: 10px;
+  }
+  .icon_reseaux {
+    font-size: 20px;
+    color: #8a6e2f;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .home {
-        padding: 20px;
-       justify-content: flex-start;
-       padding-top: 30px;
-       align-items: center;
-        gap: 0px;
-        flex-direction: column;
-        .div_logo_home {
-            width: 62.5px;
-            height: 60px;
-    
-            .Logo_home{
-            width: 100px;
-        }
-        }
-        .desc_home {
-            padding: 5px 10px 0 5px;
-        }
-        .left_home {
-            padding-top: 30px;
-            flex-direction: row;
-            padding-bottom: 0;
-        }
-        .quisuisje {
-            width: 80%;
-        }
-        
-        .div_boutons{
-        // flex-direction: column;
-        padding-bottom: 10px;
+  .home {
+    padding: 20px;
+    justify-content: flex-start;
+    padding-top: 30px;
+    align-items: center;
+    gap: 0px;
+    flex-direction: column;
+    .div_logo_home {
+      width: 62.5px;
+      height: 60px;
 
-        .bouton_home{
-            width: 100px;
-        }
+      .Logo_home {
+        width: 100px;
+      }
     }
+    .desc_home {
+      padding: 5px 10px 0 5px;
     }
+    .left_home {
+      padding-top: 30px;
+      flex-direction: row;
+      padding-bottom: 0;
+    }
+    .quisuisje {
+      width: 80%;
+    }
+
+    .div_boutons {
+      // flex-direction: column;
+      padding-bottom: 10px;
+
+      .bouton_home {
+        width: 100px;
+      }
+    }
+  }
 }
 @media screen and (max-width: 400px) {
-    .home {
-        padding: 15px;
-        .desc_home{
-            align-items: center;
-            max-width: 300px;
-        }
-        .presentation_home {
-            text-align: justify;
-        }
-        .container_bouton {
-            display: flex;
-        }
-        .div_boutons{
-            width: 60%;
-            flex-direction: column;
-        }
-        
+  .home {
+    padding: 15px;
+    .desc_home {
+      align-items: center;
+      max-width: 300px;
     }
+    .presentation_home {
+      text-align: justify;
+    }
+    .container_bouton {
+      display: flex;
+    }
+    .div_boutons {
+      width: 60%;
+      flex-direction: column;
+    }
+  }
 }
-
