@@ -35,7 +35,7 @@ const Home = () => {
     </div>
     <section className="desc_home">
     <div className="description">
-   <h1 className="titre_home"> Bienvenue sur mon Portfolio !</h1>
+   <h1 className="titre_home"> Bienvenue !</h1>
 <p className="presentation_home">Je suis <span className="moi">Mecheri Bakta</span>, une développeuse web passionnée et créative, spécialisée dans la création d'expériences numériques engageantes et innovantes. Avec une solide connaissance dans le développement frontend, je suis déterminé à donner vie à vos idées avec des solutions technologiques de pointe.
 
 <br/>N'hésitez pas à parcourir mon portfolio et à me contacter pour discuter de vos projets et de la façon dont je peux vous aider à les concrétiser. Merci de votre visite !
